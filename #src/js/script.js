@@ -83,7 +83,7 @@ $('.mentors').slick({
   dots: true,
   infinite: false,
   speed: 300,
-  arrows:true,
+  arrows:false,
   slidesToShow: 1,
   slidesToScroll: 1,
   fade:true, 
@@ -116,4 +116,11 @@ $('.mentors').slick({
     // instead of a settings object
   ]
 });
-
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+} 

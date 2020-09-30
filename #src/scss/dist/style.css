@@ -22,6 +22,14 @@ label {
   color: #333;
 }
 
+body {
+  background-color: #ffffff;
+}
+
+.wrapper {
+  background-color: #fff;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -215,6 +223,19 @@ li {
   color: #337ab7;
 }
 
+.hovers:hover {
+  color: #3498db;
+}
+
+.p_btm {
+  margin-top: 15px;
+}
+
+.ment_info {
+  border-top: 1px solid #F7F7F7;
+  padding-top: 35px;
+}
+
 .wpf {
   width: 1220px;
   display: flex;
@@ -291,6 +312,11 @@ body {
   justify-content: space-between;
 }
 
+.rq {
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
 .reg_info {
   padding-bottom: 90px;
   width: 48%;
@@ -316,8 +342,12 @@ body {
   margin-top: 5px;
 }
 
+input .pad {
+  border: 1px solid silver;
+}
+
 .reg_info_btm {
-  line-height: 2;
+  line-height: 1.7;
   display: flex;
   flex-direction: column;
   font-size: 20px;
@@ -351,6 +381,8 @@ input {
   color: #fff;
   width: max-content;
   font: 16px OpenSansRegular;
+  border: none;
+  cursor: pointer;
 }
 
 .r {
@@ -377,7 +409,7 @@ input {
 }
 
 .section_elem {
-  margin-top: 70px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -413,6 +445,7 @@ input {
   font: 34px OpenSansRegular;
   color: #333;
   margin-top: 80px;
+  text-align: center;
 }
 
 .slider_elem_appl {
@@ -431,10 +464,16 @@ input {
   opacity: 0.5;
 }
 
+.just {
+  display: flex;
+  flex-direction: column;
+}
+
 .quot_btm {
   position: absolute;
   opacity: 0.5;
   right: 0;
+  bottom: 65px;
 }
 
 .fas {
@@ -442,11 +481,11 @@ input {
 }
 
 .comment_th {
-  font: 22px OpenSans;
+  font: 19px OpenSansRegular;
   color: #666;
   line-height: 1.7;
   text-align: center;
-  padding: 0px 40px;
+  padding: 0px 30px;
 }
 
 .slider_btm {
@@ -475,8 +514,8 @@ input {
 }
 
 .slick-dots li button {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   text-indent: -9999px;
   overflow: hidden;
   border-radius: 50px;
@@ -488,7 +527,7 @@ input {
   flex-direction: row;
   justify-content: center;
   border: 0;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 .slick-dots li button {
@@ -507,7 +546,7 @@ input {
 }
 
 .video {
-  margin-top: 80px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -544,6 +583,10 @@ li[role=presentation]:first-child {
   margin-left: 0 !important;
 }
 
+.header {
+  padding-top: 10px;
+}
+
 .photo {
   display: flex;
 }
@@ -568,7 +611,7 @@ li[role=presentation]:first-child {
 .ment_name_p {
   color: #3498db;
   font: 25px OpenSansBold;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .mentors {
@@ -583,6 +626,7 @@ li[role=presentation]:first-child {
 
 .map_as_map {
   width: 100%;
+  margin-bottom: -7px;
 }
 
 .map {
@@ -594,7 +638,18 @@ li[role=presentation]:first-child {
 }
 
 .pad:focus {
-  border-color: #3498db;
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
 }
 
 .humburger_item {
@@ -626,6 +681,20 @@ li[role=presentation]:first-child {
 }
 
 @media screen and (max-width: 1220px) {
+  .text_info_block {
+    margin-top: 30px;
+  }
+
+  .video_vi {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .vitxp {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
   .pracia {
     width: min-content;
   }
@@ -709,8 +778,8 @@ li[role=presentation]:first-child {
     position: absolute;
     border-radius: 8px;
     background-color: #337ab7;
-    height: 50px;
-    width: 60px;
+    height: 40px;
+    width: 50px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -793,6 +862,15 @@ li[role=presentation]:first-child {
     line-height: 1.4;
   }
 }
+@media screen and (max-width: 500px) {
+  .h_course {
+    font-size: 28px;
+  }
+
+  .submit {
+    padding: 15px 35px !important;
+  }
+}
 @media screen and (max-width: 361px) {
   .h_course {
     font-size: 28px;
@@ -802,6 +880,12 @@ li[role=presentation]:first-child {
     padding: 15px 35px !important;
   }
 }
+.what_says {
+  font: 28px OpenSansRegular;
+  color: #333;
+  margin-top: 80px;
+}
+
 .tt_f {
   display: flex;
 }
@@ -836,10 +920,6 @@ li[role=presentation]:first-child {
 @media screen and (max-width: 498px) {
   .top_p_f {
     margin-top: 0px;
-  }
-
-  .fas {
-    font-weight: 500;
   }
 }
 .elem_text {
