@@ -1,0 +1,778 @@
+@font-face{
+    font-family: "OpenSans";
+    src : url("../fonts/OpenSans-Light.woff");
+}
+@font-face{
+    font-family: "OpenSansBold";
+    src : url("../fonts/OpenSans-Bold.woff");
+}
+
+@font-face{
+    font-family: "OpenSansRegular";
+    src : url("../fonts/OpenSans-Regular.woff");
+}
+@font-face{
+    font-family: "OpenSansLightItalic";
+    src : url("../fonts/OpenSans-LightItalic.woff");
+}
+label{ padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font:18px OpenSans;
+    color: #333;;}
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font:16px OpenSans;
+    color: #666;;
+}
+a{
+    text-decoration: none;
+}
+.logo_img{
+    float: left;
+}
+::placeholder{
+    color: black;
+    font:16px OpenSansRegular;
+}
+p{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.development{
+    display: flex;
+    flex-direction: column;
+}
+.dev_elem{
+    display: flex;
+    justify-content: center;
+}
+.wrapper_develop{
+    width: 100%;
+}
+.course{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    i::before{
+        color: white;
+        font-size: 45px;
+    }
+    margin-bottom: 10px;
+}
+.slider_element{
+    display: flex;
+    flex-direction: column;
+}
+.slider_elem_img{
+    display: flex;
+    justify-content: center;
+}
+.p_d{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.wp_content_p{
+    margin: 0 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sv{
+    font:20px OpenSansRegular;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3498db;
+}
+.p_d_btm{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;     
+    width: 85%;
+}
+.text{
+    margin-bottom: 5px;
+}
+.wrapper{
+    position: relative;
+    min-height: 100%;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+
+.header{ 
+    top:0px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    box-shadow: 0px 1px 12px rgba(51, 51, 51, 0.23);
+    z-index: 200;
+}
+.content{
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.menu_items{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin-left:1.5vw ; 
+    display: flex;
+    align-items: center;    
+  
+}
+.reg{
+    background-color: #337ab7;
+    border-radius: 20px;
+    color: white;
+
+}
+.reg a{
+    padding: 8px 16px;
+    color: white;
+}
+.wrapper_footer{
+
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+
+    left: 0;
+    
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    padding: 40px 0;
+    
+}
+.h_course{
+    margin: 80px 0px 25px;
+    color: #333;
+    font: 32px OpenSansRegular;
+    display: flex;
+    justify-content: center;
+}
+.footer_contact{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_footer_btm{
+    flex-direction: column;
+    margin:50px 0;
+    display: flex;
+    align-items: center;
+}
+.p_btm_t{
+    color: #337ab7;
+}
+.wpf{
+    width: 1220px;
+    display: flex;
+    margin: auto;
+}
+.text{
+    color: white;
+}
+.tel{
+    color: white;
+}
+.wrapper_footer_top{
+    background-color: #3498db;
+    display: flex;
+    justify-content: center;
+}
+.frame{
+
+    width: 100%;
+}
+.content_main{
+
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column;
+}
+.footer_bottom{
+    background-color:white;
+}
+body{
+  height: 100%;
+}
+.wp_footer_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+.h{
+    margin-bottom: 20px;
+    color: #333;
+    font: 32px OpenSansBold;
+    display: flex;
+    justify-content: center;
+}
+.wp_blue_p{
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 15px;
+    display: flex;
+}
+.h2{
+
+    margin-bottom: 15px;
+    color: #333;
+    font: 22px OpenSansBold;
+    display: flex;
+}
+.reg_t{
+    margin: 0 15px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.reg_info{
+    padding-bottom: 90px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.s{
+    padding: 0 !important;
+    margin-top:10px !important;
+    font: 17px OpenSansRegular;
+
+}
+.reg_form{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.pad{
+    margin-top:5px ;
+}
+.reg_info_btm{
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding:15px 10px !important ;
+    display: flex;
+    align-content:center ;
+}
+.checkbox{
+    display: flex;
+
+}.submit{
+    margin-top: 40px !important;
+    display: flex;
+    margin: auto;
+    padding: 15px 95px !important;
+    border-radius: 50px;
+    background-color: #337ab7;
+    color: #fff;
+    width: max-content;
+    font: 16px OpenSansRegular;
+}
+.r{
+    padding-left: 8px !important;
+    margin: 0px !important;
+}
+.link_reg{
+    color: #337ab7;
+}
+.blue_section{
+    margin-top: 80px;
+    width: 100%;
+
+    background-color: #3498db;
+}
+.wrapper_blue{
+    width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+.section_elem{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+.section_img{
+    display: flex;
+    justify-content: center;
+}
+.section_digit{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.section_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.digit{
+    font:25px OpenSansRegular;
+    color: #fff;
+}
+.elem_text{
+    font:16px OpenSans;
+    color: #fff;
+}
+.what_says{
+    font: 34px OpenSansRegular;
+    color: #333;   
+    margin-top: 80px; 
+}
+.slider_elem_appl{
+    display: flex;
+    flex-direction: column;
+
+}
+.what{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.quot_top{
+    float:left;
+    opacity: 0.5;
+}
+.quot_btm{
+    position: absolute;
+    opacity: 0.5;
+    right: 0;
+}
+.fas{
+    font-size: 30px;
+}
+.comment_th{
+    font: 22px OpenSans;
+    color: #666;
+    line-height: 1.7;
+    text-align: center;
+    padding: 0px 40px;
+}
+.slider_btm{
+    display: flex;
+    justify-content: center;
+}
+.name_as{
+    font: 20px OpenSansRegular;
+    justify-content: center;
+    display: flex;
+    color: #333;
+    margin-top: 20px;
+}
+.name_t{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.name_as_btm{
+    font:16px OpenSansLightItalic;
+    justify-content: center;
+    display: flex;
+}
+.slick-dots li button {
+
+    width: 15px;
+    height: 15px;
+    text-indent: -9999px;
+    overflow:hidden;
+    border-radius: 50px;
+    /* more CSS */
+}
+.slick-dots{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0;
+    padding-top: 60px;
+}
+
+.slick-dots li button{
+    background-color: silver ;
+    opacity: 1;
+    border: 0;
+  }
+
+  .slick-dots li.slick-active button {
+    background-color: #666;
+    opacity: 1;
+  }
+.acer{
+    display: flex;
+}
+.video{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p_video{
+    display: flex;
+    justify-content: center;
+}
+.video_text{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.video_vi{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.video_h{
+    font:34px OpenSansRegular;
+    color: #333;
+}
+li[role="presentation"]:first-child{
+    
+    margin-left: 0 !important;
+}
+.photo{
+    display: flex;
+}
+.mentor_elem_slider{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+.text_info_block{
+    display: flex;
+    flex-direction: column;
+}
+.text_mentor_p{
+    font:16px OpenSans;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+.ment_name_p{
+    color: #3498db;
+    font: 25px OpenSansBold;
+    padding-bottom: 40px;
+}.mentors{
+    display: flex;
+    margin-top: 50px;
+}
+.photo{
+    margin-right: 130px;
+    margin-left: 20px;
+}
+.map_as_map{
+    width: 100%;
+}
+.map{
+    margin-top: 70px;
+}
+.menu_it a:hover{
+    color: #337ab7;
+}
+.pad:focus{
+    border-color: #3498db;
+}
+.humburger_item{
+    width:30px;
+    height:3px;
+    background-color: white;
+    border-radius: 20px;
+    margin:2px;
+    padding: 0px 2px;
+}
+.wp_shokazu{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.dev_elem{
+    margin: 0 15px;
+}
+@media screen and (min-width: 1221px){
+    .humb{
+        display: none;
+    }
+}
+.wp_menu{
+    width: 100%;
+    background-color: #fff;
+}
+@media screen and (max-width: 1220px) {
+    
+    .pracia{
+        width: min-content;
+    }
+    .wrapper_blue{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .content_main{
+        width: 100%;
+    } 
+    .reg_form{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+    .h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .reg_t{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 15px;
+        margin-left: 15px;
+    }  
+    .reg_info{
+        width: 98%;
+    }
+    .menu{
+            text-align: center;
+            margin: 0 auto;
+            background-color: #fff;
+            display: flex;
+            flex-direction:center ;
+            align-items: center;
+        }
+       .menu_items {
+        display: none ;
+       }
+      .iconr{
+          display: flex;
+          flex-direction: column;
+          margin: auto 0;
+      }
+      /* Style the hamburger menu */
+      .menu a.iconr {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100px;
+          height: 100px;
+      } 
+      .menu_items{
+          background-color: #fff;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+      }  
+      .humb{
+          position: absolute;
+          border-radius: 8px;
+          background-color: #337ab7;
+          height: 50px;
+          width: 60px;
+          display: flex;
+          justify-content: center;
+          margin-top: 20px ;
+          margin-right: 10px;
+          right: 0;
+      }
+      .fa-bars{
+        width: 100px;
+        height: 100px;
+      }
+      .menu_it{
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        width: max-content;
+      }
+      .reg{
+        padding: 8px 16px;
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+        width: max-content;
+      }
+   }
+   @media screen and (max-width: 904px) {
+        .sv{
+            font-size: 18px;
+        }
+   }
+   @media screen and (max-width: 850px) {
+    
+        .p_d_btm{
+            width: 68% !important;
+        }
+    
+}
+@media screen and (max-width: 780px) { 
+
+}
+@media screen and (max-width: 850px) {
+    .top_p_f{
+        margin-top: 0px;
+    }
+    .wp_blue_p{
+        width: 100%;
+    justify-content: space-between;
+        flex-wrap: wrap;
+        .section_elem{
+                flex: 1 1 50%;
+                max-width: 50%;
+        }
+        .elem_text{
+            text-align: center;
+        }
+    }
+    .wp_footer_top{
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer_contact{
+        margin:20px 0;  
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    .tel{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 12px;
+    }
+  
+  
+  }
+@media screen and (max-width: 619px) {
+  .comment_th{
+      font-size: 16px;
+      line-height: 1.4;
+  }
+
+
+}
+@media screen and (max-width: 361px) {
+   .h_course{
+       font-size: 28px;
+   }
+   .submit{
+       padding: 15px 35px !important;
+   }
+  }
+.tt_f{
+    display: flex;
+}
+@media screen and (max-width: 660px) {
+    h2.h2{
+        margin: 0 auto;
+    }
+    .h2{
+        font-size: 15px;
+    }
+    .h{
+        font-size: 24px;
+        text-align: center;
+    }
+    .reg_form{
+        justify-content:flex-start ;
+        margin: 0;
+    }
+    #podatu{
+        width: 100%;
+    }
+   }
+ .tt_f{
+     display: flex;
+ }
+@media screen and (max-width: 498px) {
+    .top_p_f{
+        margin-top: 0px;
+    }
+    .fas{
+       font-weight: 500;
+    }
+
+
+}
+.elem_text{
+    font-size: 14px;
+   
+}
+@media screen and (max-width: 956px) {
+    .mentor_elem_slider{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .photo{
+        display:flex;
+        justify-content: center;
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ment_name_p{
+        display:flex;
+        justify-content: center;
+    }
+    .text_info_block{
+        width: 100%;
+    }
+    .ment_info{
+        justify-content: center;
+        text-align: center;
+    }
+}
