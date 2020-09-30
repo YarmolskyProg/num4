@@ -10,24 +10,22 @@ $('.dev_elem').slick({
   responsive: [{
     breakpoint: 1024,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToShow: 2,
+      slidesToScroll: 3,
       infinite: true,
-      dots: false
+      dots: true
     }
   }, {
-    breakpoint: 851,
+    breakpoint: 600,
     settings: {
       slidesToShow: 2,
-      slidesToScroll: 1,
-      dots: true
+      slidesToScroll: 2
     }
   }, {
-    breakpoint: 601,
+    breakpoint: 480,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true
+      slidesToScroll: 1
     }
   } // You can unslick at a given breakpoint now by adding:
   // settings: "unslick"
@@ -42,27 +40,26 @@ $('.slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   fade: true,
+  centerPadding: '0px',
   responsive: [{
     breakpoint: 1024,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 2,
+      slidesToScroll: 3,
       infinite: true,
       dots: true
     }
   }, {
     breakpoint: 600,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true
+      slidesToShow: 2,
+      slidesToScroll: 2
     }
   }, {
     breakpoint: 480,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true
+      slidesToScroll: 1
     }
   } // You can unslick at a given breakpoint now by adding:
   // settings: "unslick"
@@ -80,38 +77,25 @@ $('.mentors').slick({
   responsive: [{
     breakpoint: 1024,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 2,
+      slidesToScroll: 3,
       infinite: true,
       dots: true
     }
   }, {
     breakpoint: 600,
     settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true
+      slidesToShow: 2,
+      slidesToScroll: 2
     }
   }, {
     breakpoint: 480,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1,
-      dots: true
+      slidesToScroll: 1
     }
   } // You can unslick at a given breakpoint now by adding:
   // settings: "unslick"
   // instead of a settings object
   ]
 });
-
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  console.log(123);
-
-  if (x.style.display === "flex") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "flex";
-  }
-}
