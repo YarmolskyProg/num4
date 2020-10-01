@@ -967,6 +967,10 @@ li[role=presentation]:first-child {
   .fas {
     font-size: 20px;
   }
+
+  ::placeholder {
+    font-size: 15px;
+  }
 }
 .elem_text {
   font-size: 14px;

@@ -984,6 +984,18 @@ li[role="presentation"]:first-child {
   .fas {
     font-size: 20px;
   }
+
+  ::-moz-placeholder {
+    font-size: 15px;
+  }
+
+  :-ms-input-placeholder {
+    font-size: 15px;
+  }
+
+  ::placeholder {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 420px) {
