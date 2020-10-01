@@ -126,8 +126,6 @@ p {
   font: 20px OpenSansRegular;
   margin-top: 30px;
   padding-bottom: 20px;
-  margin-bottom: 15px;
-  border-bottom: 1px solid #3498db;
 }
 
 .p_d_btm {
@@ -136,6 +134,8 @@ p {
   text-align: center;
   margin: 0 auto;
   width: 85%;
+  padding-top: 15px;
+  border-top: 1px solid #3498db;
 }
 
 .text {
@@ -479,6 +479,7 @@ input {
 .quot_top {
   float: left;
   opacity: 0.5;
+  position: absolute;
 }
 
 .just {
@@ -490,7 +491,7 @@ input {
   position: absolute;
   opacity: 0.5;
   right: 0;
-  bottom: 65px;
+  bottom: 165px;
 }
 
 .fas {
@@ -502,12 +503,13 @@ input {
   color: #666;
   line-height: 1.7;
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 32px;
 }
 
 .slider_btm {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .name_as {
@@ -544,7 +546,6 @@ input {
   flex-direction: row;
   justify-content: center;
   border: 0;
-  padding-top: 100px;
 }
 
 .slick-dots li button {
@@ -689,6 +690,11 @@ li[role="presentation"]:first-child {
 .wp_menu {
   width: 100%;
   background-color: #fff;
+}
+
+.photo_ap {
+  width: 200px;
+  height: 200px;
 }
 
 .what_says {
@@ -851,6 +857,10 @@ li[role="presentation"]:first-child {
 }
 
 @media screen and (max-width: 956px) {
+  .wrapper_map {
+    margin-top: -20px;
+  }
+
   .mentor_elem_slider {
     flex-direction: column !important;
     justify-content: center;
@@ -876,18 +886,20 @@ li[role="presentation"]:first-child {
   .ment_info {
     justify-content: center;
     text-align: center;
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
   }
 }
 
 @media screen and (max-width: 904px) {
   .sv {
-    font-size: 18px;
+    font-size: 23px !important;
   }
 }
 
 @media screen and (max-width: 850px) {
-  .p_d_btm {
-    width: 68% !important;
+  .h2 {
+    font-size: 6vw !important;
   }
 
   .top_p_f {
@@ -950,6 +962,7 @@ li[role="presentation"]:first-child {
   .comment_th {
     font-size: 16px;
     line-height: 1.4;
+    padding: 0 10px;
   }
 }
 
@@ -967,15 +980,54 @@ li[role="presentation"]:first-child {
   .top_p_f {
     margin-top: 0px;
   }
+
+  .fas {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 420px) {
+  .slick-dots li button {
+    margin: 0 5px;
+    /* more CSS */
+  }
+
   .tel {
     font-size: 12px;
   }
 
   .text {
     font-size: 12px;
+  }
+
+  .reg_info_btm {
+    font-size: 16px;
+  }
+
+  .reg_info {
+    padding-bottom: 50px;
+  }
+
+  .h2 {
+    font-size: 6vw;
+  }
+
+  .rq {
+    padding: 10px 5px !important;
+  }
+
+  .submit {
+    padding: 12px 38px !important;
+  }
+
+  .sv {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .p_d_btm {
+    margin-bottom: 30px !important;
   }
 }
 
